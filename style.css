@@ -124,12 +124,16 @@ main {
     font-weight: 100;
     font-size: 28px;
 }
-
+.onestop{
+    font-size: 20px;
+}
 .chatbot {
     flex: 2;
     border: 2px solid #fff;
     padding: 30px;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     transform: scale(0.9);
