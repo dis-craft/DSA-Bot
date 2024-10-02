@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -26,34 +25,17 @@ header {
 
 }
 
+.headerabt{
+    display: flex;
+    gap: 480px;
+    padding: 10px;
+    background-color: #000;
+    align-items: center;
+    margin: 10px;
+}
 
 .dsa-wizard{
     text-decoration: none;
-}
-.logo h2 {
-    margin: 0;
-    font-size: 24px;
-}
-
-.about{
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-    border: solid 1px #fff;
-    margin-right: 10px;
-    transition: opacity .3s ease-in-out;
-}
-.about:hover {
-    opacity: 0.7;
-}
-
-main {
-    display: flex;
-    flex: 1;
-    padding: 10px;
-    gap: 20px;
 }
 
 .logo-text {
@@ -64,10 +46,55 @@ main {
         "XELA" 0,
         "YELA" 0;
 }
+.about-abt{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #fff;
+    margin-right: 10px;
+    transition: opacity .3s ease-in-out;
+    font-family: "VT323", monospace;
+    font-weight: thin;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+.abtdiv{
+    display: flex;
+    align-items: center;
+}
+.about{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #fff;
+    margin-right: 10px;
+    transition: opacity .3s ease-in-out;
+    font-family: "VT323", monospace;
+    font-weight: thin;
+    font-style: normal;
+    font-size: 24px;
+    
+}
+.about:hover {
+    opacity: 0.7;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    gap: 10px;
+    margin: 20px;
+}
 
 .info {
-    flex: 1;
-    border: 1px solid #fff;
+    flex: 0.7;
+    border: 2px solid #fff;
     padding: 20px;
     margin-bottom: 200px;
     margin-top: 200px;
@@ -76,28 +103,38 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-family: "VT323", monospace;
+    font-weight: thin;
+    font-style: normal;
+    font-size: 28px;
+      
+}
+.infoabt{
+    border: 2px solid #fff;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "VT323", monospace;
+    font-weight: 100;
+    font-size: 28px;
 }
 
 .chatbot {
     flex: 2;
-    border: 1px solid #fff;
-    padding: 20px;
+    border: 2px solid #fff;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    transform: scale(0.899);
+    transform: scale(0.9);
     transform-origin: center center;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-}
-
 .chatbot iframe {
     width: 100%;
     height: 100%;
@@ -105,6 +142,13 @@ footer {
     transform: scale(1);
     transform-origin: center center;
     zoom: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -118,13 +162,3 @@ footer {
         transform: scale(0.6);
     }
 }
-
-.logo1 {
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    margin-right: 10px;
-    background-color: #000;
-    color: #fff;
-}
-
